@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-08T15:06:44 IST" name="Suite" finished-at="2022-12-08T15:07:20 IST" duration-ms="36183">
+    <groups>
+    </groups>
+    <test started-at="2022-12-08T15:06:44 IST" name="ChromeTest" finished-at="2022-12-08T15:07:20 IST" duration-ms="36183">
+      <class name="com.qa.testscripts.TC_AmazonSearch_001">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:06:44 IST" name="Setup" finished-at="2022-12-08T15:06:56 IST" duration-ms="12061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:06:59 IST" name="Search" data-provider="Data" finished-at="2022-12-08T15:07:01 IST" duration-ms="2720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Electronics]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iphone13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:07:01 IST" name="Search" data-provider="Data" finished-at="2022-12-08T15:07:06 IST" duration-ms="4138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Furniture]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chair]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:07:06 IST" name="Search" data-provider="Data" finished-at="2022-12-08T15:07:09 IST" duration-ms="3037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beauty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nailpolish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:07:09 IST" name="Search" data-provider="Data" finished-at="2022-12-08T15:07:12 IST" duration-ms="3047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[starboy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:07:12 IST" name="Search" data-provider="Data" finished-at="2022-12-08T15:07:14 IST" duration-ms="2745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[davinci code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:07:14 IST" name="Search" data-provider="Data" finished-at="2022-12-08T15:07:15 IST" duration-ms="139" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ball]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Bat
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RK', ip: '10.56.5.56', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Bat
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RK', ip: '10.56.5.56', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.qa.testscripts.TC_AmazonSearch_001.Search(TC_AmazonSearch_001.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:07:15 IST" name="Search" data-provider="Data" finished-at="2022-12-08T15:07:15 IST" duration-ms="105" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stump]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pen]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Stump
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RK', ip: '10.56.5.56', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Stump
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RK', ip: '10.56.5.56', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.qa.testscripts.TC_AmazonSearch_001.Search(TC_AmazonSearch_001.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.testscripts.TC_AmazonSearch_001@6aba2b86]" started-at="2022-12-08T15:07:15 IST" name="TearDown" finished-at="2022-12-08T15:07:20 IST" duration-ms="5323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.testscripts.TC_AmazonSearch_001 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,69 @@
+package com.qa.testscripts;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class AmazonHomePage {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		WebDriver driver = null;
+		
+		//1.Chrome
+		String browser1="Chrome";
+		if(browser1.equalsIgnoreCase("Chrome")) {
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajku\\Desktop\\Virtusa\\chromedriver.exe\\");
+			driver=new ChromeDriver();
+		}
+		driver.manage().
+		driver.manage().window().maximize();
+		driver.get("https://www.google.com/");
+		driver.findElement(By.name("q")).sendKeys("Amazon"+Keys.ENTER);
+		driver.findElement(By.partialLinkText("Shop Online on Amazon - Get the best deals on Amazon")).click();
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Iphone13"+Keys.ENTER);
+
+		driver.navigate().back();
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("realme laptop"+Keys.ENTER);
+		driver.navigate().back();
+		driver.navigate().refresh();
+		
+		
+		
+		
+		
+		//2.Edge
+		 String browser2="Edge";
+		if(browser2.equalsIgnoreCase("Edge")) {
+			System.setProperty("webdriver.edge.driver", "C:\\Users\\rajku\\Desktop\\Virtusa\\msedgedriver.exe");
+			driver=new EdgeDriver();
+		}
+
+		driver.get("https://www.google.com/");
+		driver.manage().window().maximize();
+		driver.findElement(By.name("q")).sendKeys("Amazon"+Keys.ENTER);
+		driver.findElement(By.partialLinkText("Shop Online on Amazon - Get the best deals on Amazon")).click();
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("books"+Keys.ENTER);
+		driver.close(); 
+		
+		
+		//3.FireFox
+		String browser3="FireFox";
+		if(browser3.equalsIgnoreCase("FireFox")) {
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\rajku\\Desktop\\Virtusa\\geckodriver.exe");
+			driver=new FirefoxDriver();
+		}
+		driver.manage().window().maximize();
+		driver.get("https://www.google.com//");
+		driver.findElement(By.name("q")).sendKeys("Amazon"+Keys.ENTER); 
+		driver.findElement(By.xpath("/html/body/div[7]/div/div[11]/div[1]/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div/div/div[1]/a/div")).click();
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Iphone13"+Keys.ENTER);
+		driver.close();
+		
+
+	}
+}

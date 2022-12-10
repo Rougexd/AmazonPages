@@ -1,0 +1,4 @@
+1.Test the Amazon websites whether it it opening in the chrome ,Edge & Firefox and Print the TitlePage
+2.After Titlepage move to Google HOmepage click Gmail tab and print the Gmail Title
+3.After Gmail page click create account and fill the all the Details.
+

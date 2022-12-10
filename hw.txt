@@ -1,0 +1,13 @@
+Perform the Following;
+
+*Login to PArticular WEbsites
+*Perform the signup 
+*Search the Particular Course 
+
+link
+https://www.academia.edu/
+
+
+Pass: P@ss#123$
+
+https://www.cleartrip.com/

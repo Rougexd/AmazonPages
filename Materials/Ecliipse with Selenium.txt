@@ -1,0 +1,3 @@
+Maven :
+
+open Eclipse---> choose NewProject--->Search MavenPRoject--->Click next--->In Filter type and searchfor "org.appache.maven Quickstart 1.4--->group id: Amazon Artflict id Amazon Click finish
